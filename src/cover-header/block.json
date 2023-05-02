@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "theme-supports/template-header",
+	"version": "0.1.0",
+	"title": "Template Header",
+	"category": "media",
+	"description": "Template cover image that can be dynamically set in pages.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "theme-supports",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
